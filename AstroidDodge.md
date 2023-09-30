@@ -22,6 +22,6 @@ This was written in python with the pygames library
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Imporove asteroid colison 
+* retexture asteroids to a more topical image
+* add high score that lasts between play sesions
