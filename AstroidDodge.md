@@ -10,7 +10,7 @@ I wrote this software to refresh my python knowledge and get more accustomed to 
 
 # Development Environment
 
-I useded vs code and the python compiler to make this game
+I used vs code and the python compiler to make this game
 
 This was written in python with the pygames library
 
