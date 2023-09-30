@@ -6,7 +6,7 @@ This game is based on asteroids, a classic game. But with twist. Instead of tryi
 I wrote this software to refresh my python knowledge and get more accustomed to the pygames library.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/i9nLJr4noqA)
 
 # Development Environment
 
