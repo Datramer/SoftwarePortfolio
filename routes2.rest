@@ -1,0 +1,167 @@
+GET http://localhost:8080/note
+###
+GET http://localhost:8080/note/652b5602165ef6277a4e92ff
+###
+POST http://localhost:8080/note
+content-Type: application/json
+
+{
+        "Date":"10/14/2023",
+        "Note":"Inertia Is a property of matter",
+        "Device": "Laptop",
+        "Time": "8:58"
+}
+
+
+
+
+###
+PUT http://localhost:8080/note/652b5602165ef6277a4e92ff
+content-Type: application/json
+
+{
+        "Date":"10/14/2023",
+        "Note":"Inertia Is not a property of matter",
+        "Device": "Laptop",
+        "Time": "8:58"
+}
+
+###
+DELETE  http://localhost:8080/note/652b5602165ef6277a4e92ff
+
+
+
+
+###
+GET https://jgregoryweek6.onrender.com/cards
+###
+GET https://jgregoryweek6.onrender.com/647287f06fbd9342ec84
+###
+POST https://jgregoryweek6.onrender.com/cards
+content-Type: application/json
+
+{
+        "name":"Runeclaw Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}
+###
+put https://jgregoryweek6.onrender.com/cards/6472885e6fbd9342ec8ab525
+ content-Type: application/json
+
+{
+        "name":"Grizzly Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}
+
+###
+DELETE  https://jgregoryweek6.onrender.com/cards/647287f06fbd9342ec8ab524
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+GET http://localhost:8080/stock
+###
+GET http://localhost:8080/stock/6478765
+###
+POST http://localhost:8080/stock
+content-Type: application/json
+
+{
+        "cardId":"6469187894cace42ab4e9b32",
+        "cardCondition":"Lightly Played",
+        "Stock": "10"
+}
+
+
+
+
+###
+put http://localhost:8080/stock/6484d6933f1f304a3b159c5f
+ content-Type: application/json
+
+{
+        "cardId":"6469187894cace42ab4e9b32",
+        "cardCondition":"Lightly Played",
+        "Stock": "8",
+        "location": "S3B2R5"
+}
+
+###
+DELETE  http://localhost:8080/stock/647b8bd9a658fcedec401ff5
+
+
+
+
+###
+GET https://jgregoryweek6.onrender.com/stock
+###
+GET https://jgregoryweek6.onrender.com/stock/647287f06fbd9342ec84
+###
+POST https://jgregoryweek6.onrender.com/stock
+content-Type: application/json
+
+{
+        "name":"Runeclaw Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}
+###
+put https://jgregoryweek6.onrender.com/stock/6472885e6fbd9342ec8ab525
+ content-Type: application/json
+
+{
+        "name":"Grizzly Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}
+
+###
+DELETE  https://jgregoryweek6.onrender.com/stock/647287f06fbd9342ec8ab524
