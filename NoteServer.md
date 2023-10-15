@@ -18,12 +18,11 @@ This was designed with javascript and react
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name]((https://github.com/Datramer/cse341-Gregory))
+- [old github repo](https://github.com/Datramer/cse341-Gregory)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- create following app 
+- create following webapp
+- automate device detection
