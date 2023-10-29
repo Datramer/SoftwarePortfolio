@@ -1,0 +1,28 @@
+# Overview
+
+This code is for a notes application, designed to read and write notes.
+
+This code was written to learn the basics of kotlin in order to prepare to make a notes application on android.
+
+{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
+
+[Notes app demo](https://www.youtube.com/watch?v=9agZ3UVsQ1M)
+
+# Development Environment
+
+This code was written in the intelij ide
+
+written using kotlin and the java.io.File and FileWritter libraries
+
+# Useful Websites
+
+
+- [video about java io](https://www.youtube.com/watch?v=hgF21imQ_Is)
+- [W3 Kotlin I/O page](https://www.w3schools.com/java/java_files_create.asp)
+
+# Future Work
+
+
+- display all text files located at directory
+- Error handling
+- port to android
