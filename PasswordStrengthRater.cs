@@ -68,7 +68,6 @@ public class PasswordStrengthRater
             strengthRating = strengthRating + 2;
         }
         
-        //Console.WriteLine(temp + "\n");
         Console.WriteLine("the password you are rating: " + password + "\n");
         Console.WriteLine("your final rating was: " + strengthRating);
         if (strengthRating == 10)
